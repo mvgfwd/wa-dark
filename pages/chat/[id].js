@@ -33,7 +33,7 @@ export async function getServerSideProps(context) {
   //menyiapkan pesan di server
   const pesanpesan = await ref
     .collection("pesan")
-    .orderBy("timestamp", "asc")
+//     .orderBy("timestamp", "asc")
     .get();
 
   const pesan = pesanpesan.docs
