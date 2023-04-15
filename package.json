@@ -9,10 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.11.16",
+    "better-react-spinkit": "^2.0.5",
+    "email-validator": "^2.0.4",
     "eslint": "8.37.0",
     "eslint-config-next": "13.3.0",
+    "firebase": "^9.19.1",
+    "moment": "^2.29.4",
     "next": "13.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-spinkit": "^3.0.0",
+    "react-spinners": "^0.13.8",
+    "styled-components": "^5.3.9",
+    "timeago-react": "^3.0.6"
   }
 }
