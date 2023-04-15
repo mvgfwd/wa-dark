@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
     if (typeof window === "undefined") {
       return <></>;
     }
-  }, []);
+  });
 
   if (loading) {
     return <Loading />;

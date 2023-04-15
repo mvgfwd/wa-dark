@@ -17,7 +17,7 @@ function PesanComponent(props) {
     } else {
       setTipePesan(Penerima);
     }
-  }, []);
+  });
 
   // const TipePesan = props.user === userLogin.email ? Pengirim : Penerima;
 
