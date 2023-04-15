@@ -5,7 +5,7 @@ import styled from "styled-components";
 import moment from "moment/moment";
 
 function PesanComponent(props) {
-  console.log("PesanComponent", typeof PesanComponent);
+  // console.log("PesanComponent", typeof PesanComponent);
   const [userLogin] = useAuthState(auth);
 
   const [TipePesan, setTipePesan] = useState(Pengirim);

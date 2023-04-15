@@ -8,7 +8,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 
 //component
 function Chat({ pesan, chat }) {
-  console.log("[id]", typeof Chat);
+  // console.log("[id]", typeof Chat);
   const [userLogin] = useAuthState(auth);
 
   return (

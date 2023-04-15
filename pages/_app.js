@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import firebase from "firebase/compat/app";
 
 export default function App({ Component, pageProps }) {
-  console.log("App", typeof App);
+  // console.log("App", typeof App);
   const [user, loading] = useAuthState(auth);
 
   useEffect(() => {

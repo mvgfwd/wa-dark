@@ -6,7 +6,7 @@ import { RingLoader, CircleLoader, HashLoader } from "react-spinners";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ value }) {
-  console.log("Index", typeof Home);
+  // console.log("Index", typeof Home);
   return (
     <div>
       <Head>

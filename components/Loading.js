@@ -3,7 +3,7 @@ import { PacmanLoader } from "react-spinners";
 import styled from "styled-components";
 
 function Loading() {
-  console.log("Loading", typeof Loading);
+  // console.log("Loading", typeof Loading);
   return (
     <Kontener
       style={{

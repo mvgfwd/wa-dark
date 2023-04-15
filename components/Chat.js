@@ -8,7 +8,7 @@ import { useCollection } from "react-firebase-hooks/firestore";
 import styled from "styled-components";
 
 function Chat(props) {
-  console.log("ChatHead", typeof Chat);
+  // console.log("ChatHead", typeof Chat);
   const router = useRouter();
 
   const chatFocus = () => {

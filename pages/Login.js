@@ -29,7 +29,7 @@ const Logo = styled.img`
 `;
 
 function Login() {
-  console.log("Login", typeof Login);
+  // console.log("Login", typeof Login);
   const [value, setValue] = useState();
   const signIn = () => {
     signInWithPopup(auth, provider)

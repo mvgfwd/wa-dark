@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Avatar, IconButton, Button } from "@mui/material";
+import { Avatar, IconButton } from "@mui/material";
 import IkonChat from "@mui/icons-material/Chat";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import SearchIcon from "@mui/icons-material/Search";
@@ -11,7 +11,7 @@ import { useCollection } from "react-firebase-hooks/firestore";
 import Chat from "./Chat";
 
 function Sidebar() {
-  console.log("Sidebar", typeof Sidebar);
+  // console.log("Sidebar", typeof Sidebar);
   const [user] = useAuthState(auth);
   //take all chat with whoever the login user has
   const userChatReference = db

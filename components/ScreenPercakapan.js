@@ -8,7 +8,7 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import SearchIcon from "@mui/icons-material/Search";
 import { useCollection } from "react-firebase-hooks/firestore";
 import PesanComponent from "./PesanComponent";
-import { InsertEmoticon, Merge, MicNone } from "@mui/icons-material";
+import { InsertEmoticon } from "@mui/icons-material";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
 import MicNoneIcon from "@mui/icons-material/MicNone";
 import firebase from "firebase/compat/app";
@@ -16,7 +16,7 @@ import getRecipientEmail from "@/utils/getRecipientEmail";
 import TimeAgo from "timeago-react";
 
 function ScreenPercakapan(props) {
-  console.log("ScreenPercakapan", typeof ScreenPercakapan);
+  // console.log("ScreenPercakapan", typeof ScreenPercakapan);
   const [userLogin] = useAuthState(auth);
   const pesanAkhirRef = useRef(null);
   const router = useRouter();
